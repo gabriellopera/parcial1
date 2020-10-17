@@ -9,12 +9,12 @@ float posicionY(float y0, float vy, float t);
 float velocidadY(float v0, float t, double angulo);
 
 int main()
-{   double x0=9, vxO=8, vyO=10, yO=2;
+{   double x0=9, vxO=8, vyO=10, yO=2, g=9.81;;
     double anguloHO=45;
-    double t=
-    double d=1;
+    double t=(-(2*vyO/g)+sqrt((2*vyO/g*2*vyO/g)-(-4*2/g)))/2;
+
     double d=0.025*d;
-    cout << "" << endl;
+    cout << t<<" " << endl;
     return 0;
 
 
