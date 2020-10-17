@@ -17,7 +17,6 @@ int main()
 }
 
 
-
 float posicionX(float x0, float vx, float t){
     double x=x0+(vx*t);
     return x;
