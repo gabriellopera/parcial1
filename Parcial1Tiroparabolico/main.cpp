@@ -13,6 +13,7 @@ int main()
     double anguloHO=45;
     double t=(-(2*vyO/g)+sqrt((2*vyO/g*2*vyO/g)-(-4*2/g*y0)))/2;
     double d=x0+vxO*t;
+
     cout << t<<" " << endl;
     return 0;
 
