@@ -17,3 +17,24 @@ int main()
 }
 
 
+
+float posicionX(float x0, float vx, float t){
+    double x=x0+(vx*t);
+    return x;
+}
+float velocidadX(float v0, double angulo){
+    float vx = v0*cos(angulo);
+    return vx;
+}
+float posicionY(float y0, float vy, float t){
+    float g=9.81;
+    float y=y0+(vy*t)-(g*t*t/2);
+    return y;
+}
+float velocidadY(float v0, float t, double angulo){
+    float g=9.81;
+    float vy=v0*sin(angulo)-(g*t);
+    return vy;
+}
+
+
