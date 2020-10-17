@@ -10,7 +10,7 @@ float velocidadY(float v0, float t, double angulo);
 
 int main()
 {   double x0=3.4, vx=2.5, t=2;
-    double angulo;
+    double angulo=0;
     posicionX(x0,vx,t);
     cout << "" << endl;
     return 0;
