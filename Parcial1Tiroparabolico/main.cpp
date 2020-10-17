@@ -9,11 +9,15 @@ float posicionY(float y0, float vy, float t);
 float velocidadY(float v0, float t, double angulo);
 
 int main()
-{   double x0=3.4, vx=2.5, t=2;
-    double angulo=0;
-    posicionX(x0,vx,t);
+{   double x0=9, vxO=8, vyO=10, yO=2;
+    double anguloHO=45;
+    double t=
+    double d=1;
+    double d=0.025*d;
     cout << "" << endl;
     return 0;
+
+
 }
 
 
